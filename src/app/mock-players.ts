@@ -2,7 +2,7 @@ import { Player } from './player';
 
 export const PLAYERS: Player[] = [
   { id: 11, name: 'SB Williams' },
-  { id: 12, name: 'Richie Mc Caw' },
+  { id: 12, name: 'R Mc Caw' },
   { id: 13, name: 'J Barrett' },
   { id: 14, name: 'W Saver' },
   { id: 15, name: 'B Retallick' },

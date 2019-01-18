@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Player} from '../player';
+import { Player } from '../player';
 import { PLAYERS } from '../mock-players';
 
 @Component({
@@ -9,10 +9,10 @@ import { PLAYERS } from '../mock-players';
 })
 export class PlayersComponent implements OnInit {
 
-  player : Player = {
-    id: 1,
-    name:"SB Williams"
-  };
+  selectedPlayer: Player;
+  onSelect(player: Player): void {
+    this.selectedPlayer = player;
+  }
 
   players = PLAYERS;
 
