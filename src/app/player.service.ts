@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Player } from './player';
 import { PLAYERS } from './mock-players';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
 
 @Injectable()
 
