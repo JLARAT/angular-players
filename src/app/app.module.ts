@@ -7,6 +7,7 @@ import { PlayersComponent } from './players/players.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { PlayerService } from './player.service';
 import { MessagesComponent } from './messages/messages.component';
+import { MessageService } from './message.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { MessagesComponent } from './messages/messages.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [PlayerService],
+  providers: [PlayerService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
